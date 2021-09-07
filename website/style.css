@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#main-header {
+  text-align: center;
+}
+
+#app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#feel {
+  display: grid;
+}
+
+#feelings {
+  max-height: 125px;
+}
