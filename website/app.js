@@ -4,7 +4,7 @@ const WEATHER_API_URI = `https://api.openweathermap.org/data/2.5/weather?units=m
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getFullYear() + '.' + d.getDate() + '.' + d.getMonth();
+let newDate = d.getMonth() + 1 + '.' + d.getDate() + '.' + d.getFullYear();
 
 // Fetch current weather via ZIP code
 const getTemperatureByZipCode = async (baseURI, zipCode, apiKey) => {
